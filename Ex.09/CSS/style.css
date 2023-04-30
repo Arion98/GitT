@@ -1,0 +1,37 @@
+h1{
+    font-family: helvetica;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+body{
+    
+    background-image: linear-gradient(to top, black 80%,red);
+    background-attachment: fixed;
+}
+
+div{
+    margin-left: 25%;
+    
+}
+
+a{
+    margin-top: 10px;
+    background-color: rgb(15, 15, 15);
+    border: 2px solid white;
+    color: rgb(233, 8, 8);
+    padding: 10px;
+    transition: 0.8s;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+a:hover{
+    background-color: rgb(73, 66, 66);
+}
+
+#ab{
+    border-top:20xp; 
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    background-image: url('../imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: rgb(10, 10, 10);
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+div{
+    background-color: aliceblue;
+    
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main{
+    margin: auto;
+    width: 60%;
+}
+
+div > p {
+    border: 2px solid black;
+    background-color: aquamarine;
+    padding: 53px 5% 59px 45px;
+    margin: 144px 0% 137px 0%;
+    border-radius: 5px;
+    font-size: 90%;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}

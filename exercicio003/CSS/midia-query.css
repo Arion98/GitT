@@ -1,0 +1,94 @@
+/* todas demais mídias */
+
+/* typical device breakpoints 
+Mobile – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops – 1025px — 1200px.
+TV – 1201px.
+*/
+
+ @media screen and (min-width:581px) and (max-width:768px){ /*tablet*/
+    body{
+        background-image:url(../estilo/back-tablet.jpg);
+    }
+    #phone{
+        display: none;
+    }
+    #tablet{
+        display: block;
+    }
+    #impressora{
+        display: none;
+    }
+    #desktop{
+        display: none;
+    }
+    #televisor{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){ 
+    body{
+        background-image: url(../estilo/back-print.jpg);
+    }
+    #phone{
+        display: none;
+    }
+    #tablet{
+        display: none;
+    }
+    #impressora{
+        display: block;
+    }
+    #desktop{
+        display: none;
+    }
+    #televisor{
+        display: none;
+    }
+}/*laptops*/
+@media screen and (min-width:1025px) and (max-width:1200px){
+    body{
+        background-image: url(../estilo/back-pc.jpg);
+    }
+    
+    #phone{
+        display: none;
+    }
+    #tablet{
+        display: none;
+    }
+    #impressora{
+        display: none;
+    }
+    #desktop{
+        display: block;
+    }
+    #televisor{
+        display: none;
+    } 
+}/*desktop*/
+@media screen and (min-width:1200px){ 
+    body{
+        background-image: url(../estilo/back-tv.jpg);
+    }
+    
+    #phone{
+        display: none;
+    }
+    #tablet{
+        display: none;
+    }
+    #impressora{
+        display: none;
+    }
+    #desktop{
+        display: none;
+    }
+    #televisor{
+        display: block;
+    }
+}/*tv*/
